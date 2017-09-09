@@ -1,18 +1,4 @@
-import org.bytedeco.javacpp.Pointer;
-import org.bytedeco.javacpp.opencv_core;
-
-import java.util.*;
-import java.util.Arrays;
-
-import static org.bytedeco.javacpp.opencv_core.*;
-import static org.bytedeco.javacpp.opencv_highgui.cvShowImage;
-import static org.bytedeco.javacpp.opencv_highgui.cvWaitKey;
-import static org.bytedeco.javacpp.opencv_highgui.imshow;
-import static org.bytedeco.javacpp.opencv_imgcodecs.cvLoadImage;
-import static org.bytedeco.javacpp.opencv_imgcodecs.cvSaveImage;
-import static org.bytedeco.javacpp.opencv_imgcodecs.imread;
-import static org.bytedeco.javacpp.opencv_imgproc.*;
-
+import org.opencv.core.Mat;
 
 /**
  * Created by Admin on 08.09.2017.
